@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="tomatoTitle">25:00</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="img/redtomato.png"
+      type="image/x-icon"
+      id="favicon"
+    />
+    <link rel="stylesheet" href="reset/reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="tomatoClass" id="tomato-body">
+    <nav class="navbar">
+      <div class="nav-left">
+        <a href="">TomatoTime</a>
+      </div>
+
+      <div class="nav-center">
+        <a href=""
+          ><img
+            src="img/redtomato.png"
+            alt="tomato"
+            class="tomato-logo"
+            id="imgTomato"
+        /></a>
+      </div>
+
+      <div class="nav-right"></div>
+    </nav>
+
+    <div class="container">
+      <div class="container-timer" id="containerTimer">
+        <div class="space-buttons">
+          <button class="button" id="tomato-button">TOMATO</button>
+          <button class="button" id="short-button">SHORT</button>
+          <button class="button" id="long-button">LONG</button>
+        </div>
+        <div class="timer" id="displayTimer"></div>
+
+        <div class="container-button">
+          <button class="start-none" id="start-None"></button> <!--- botão invisivel ---> 
+          <button class="start-button" id="start-Button">START</button>
+          <button class="start-pause" id="start-Pause">↺</button>
+          <audio src="sounds/switch on.mp3" id="soundOn"></audio>
+          <audio src="sounds/switch off.mp3" id="soundOff"></audio>
+          <audio src="sounds/reset.ogg" id="soundReset"></audio>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

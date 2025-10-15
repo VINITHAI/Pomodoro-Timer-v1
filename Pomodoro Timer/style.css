@@ -1,0 +1,183 @@
+:root {
+  --c-bg1: #ba4949;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--c-bg1);
+  transition: all 0.4s ease;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.tomato-logo {
+  max-width: 50px;
+
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 20px;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(
+      to right,
+      rgba(0, 0, 139, 0),
+      rgb(255, 255, 255),
+      rgba(255, 0, 0, 0)
+    )
+    1;
+}
+a {
+  text-decoration: none;
+}
+.nav-left a {
+  color: var(--white);
+  font-size: 1em;
+}
+
+.nav-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-left,
+.nav-right {
+  flex-basis: 200px;
+  text-align: lef;
+}
+
+.start-button {
+  padding: 20px 70px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  background-color: #ffffff;
+  color: #c04949;
+
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  box-shadow: 0 5px 0 #cccccc;
+  min-width: 228px;
+  transition: all 0.2s ease;
+}
+
+.start-none {
+  opacity: 0;
+  padding: 20px 20px;
+}
+.start-pause {
+  opacity: 100;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  background-color: #ffffff;
+  color: #c04949;
+
+  font-family: sans-serif;
+  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 2px;
+
+  box-shadow: 0 5px 0 #cccccc;
+
+  transition: all 0.2s ease;
+}
+
+#tomato-button {
+  color: #ffffff;
+  background: rgb(178, 76, 76);
+  border-radius: 6px;
+  border: 2px solid #ffffff00;
+  cursor: pointer;
+  transition: all 0.5s;
+
+
+}
+#tomato-button:hover {
+  color: #ffffff;
+  border: 2px solid #c04949;
+  transition: all 0.5s;
+}
+#short-button {
+  background: rgba(178, 76, 76, 0);
+  border: 2px solid #ffffff00;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  transition: all 0.5s;
+
+
+}
+#long-button {
+  margin-left: 2px;
+  border: 2px solid #ffffff00;
+  cursor: pointer;
+  background: rgba(178, 76, 76, 0);
+  border-radius: 6px;
+
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.4s ease;
+
+}
+.start-pause:active {
+  transform: translateY(4px);
+  box-shadow: 0 0px 0 #cccccc, 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.start-button:active {
+  transform: translateY(4px);
+  box-shadow: 0 0px 0 #cccccc, 0 1px 9px #ffffff68;
+}
+#short-button:hover {
+  border: 2px solid #0093e9;
+  transition: all 0.5s ease;
+}
+#long-button:hover {
+  border: 2px solid #0be85c;
+  transition: all 0.5s ease;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-height: 450px;
+}
+
+.timer {
+  font-size: 9em;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif;
+}
+
+.container-timer {
+  
+  margin-top: 5em;
+  max-height: 350px;
+  min-width: 500px;
+  padding: 20px;
+  padding-top: 10px;
+  border-radius: 5px;
+  background-color:rgba(157, 65, 65, 1);
+  justify-content: space-between;
+  transition: all 0.4s ease;
+}
