@@ -1,4 +1,4 @@
 # Pomodoro-Timer-v1
-Esse é um projeto que eu quis trazer um pouco sobre da ideia do pomodoro. 
+This is a project I wanted to explore a bit about the idea of ​​the Pomodoro.
 
-O objetivo é manter a concentração sustentável e evitar a fadiga mental, melhorando o foco no trabalho ou estudo.
+The goal is to maintain sustainable concentration and avoid mental fatigue, improving focus on work or study.
